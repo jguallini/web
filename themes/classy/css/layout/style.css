@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: tomato;
+    color: #fff;
+    font-size: 15px;
+}
+
+.balidea {
+    display: flex;
+    justify-content: end;
+    padding-right: 5px;
+    position: fixed;
+    right: -1px;
+    top: 600px;
+    cursor: pointer;
+}
+
+.section.balidea-green {
+    background: white;
+    color: green;
+}
+
+.section.balidea-blue {
+    background: white;
+    color: blue;
+}
+
+.section img {
+    margin-bottom: 10px;
+}
+
+.section p {
+    padding: 10px;
+}
+
+div#block-languageswitcher {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding: 5px;
+}

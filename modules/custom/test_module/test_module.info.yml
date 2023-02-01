@@ -1,0 +1,5 @@
+name: Test module
+description: A test module.
+package: examples
+type: module
+core_version_requirement: ^8.9 || ^9

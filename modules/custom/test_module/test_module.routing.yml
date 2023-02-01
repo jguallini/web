@@ -1,0 +1,7 @@
+madison_example_one.hello:
+  path: '/test/balidea'
+  defaults:
+    _controller: '\Drupal\test_module\Controller\HelloController::hello'
+    _title: 'A simple text module'
+  requirements:
+    _permission: 'access content'
